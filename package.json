@@ -18,6 +18,7 @@
     "node": ">=22.12"
   },
   "dependencies": {
-    "@angular/cli": "^20.2.2"
+    "@angular/cli": "^20.2.2",
+    "@nestjs/cli": "^11.0.10"
   }
 }
