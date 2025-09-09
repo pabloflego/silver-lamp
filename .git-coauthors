@@ -1,1 +1,12 @@
-Facundo Chifflet <facundochiff@gmail.com>
+{
+  "coauthors": {
+    "Facundo Chifflet": {
+      "name": "Facundo Chifflet",
+      "email": "facundochiff@gmail.com"
+    },
+    "Pablo Flego": {
+      "name": "Pablo Flego",
+      "email": "pablinff@gmail.com"
+    }
+  }
+}
