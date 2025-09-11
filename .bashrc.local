@@ -1,8 +1,8 @@
-# Project-local bashrc for silver-lamp
-# Source this file in your shell to enable project-specific aliases and environment variables.
+# Project-local .bashrc/.zshrc
+# rename to '.bashrc' or '.zshrc'
+# then run: $ source .[ba|z]shrc
 
-# Alias for Angular CLI (assumes local install via pnpm)
+# Aliases (assumes local install via pnpm)
+alias turbo="pnpm exec turbo"
 alias ng="pnpm exec ng"
 alias nest="pnpm exec nest"
-
-# Add more project-specific aliases or environment variables below
