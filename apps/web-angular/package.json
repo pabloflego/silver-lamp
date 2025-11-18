@@ -8,7 +8,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "check-types": "tsc --noEmit",
-    "test:unit": "ng test --watch=false --browsers=ChromeHeadless",
+    "test:unit": "ng test --watch=false --browsers=ChromeHeadlessCI",
     "test:unit:watch": "ng test",
     "serve:ssr:web-angular": "node dist/web-angular/server/server.mjs"
   },
