@@ -49,17 +49,11 @@ jobs:
       - name: Run linting
         run: pnpm run lint
 
-      - name: Run unit tests (NestJS)
-        working-directory: apps/api-nestjs
-        run: pnpm test
+      - name: Run unit tests
+        run: pnpm run test:unit
 
-      - name: Run e2e tests (NestJS)
-        working-directory: apps/api-nestjs
-        run: pnpm test:e2e
-
-      - name: Run unit tests (Angular)
-        working-directory: apps/web-angular
-        run: pnpm test -- --watch=false --browsers=ChromeHeadless
+      - name: Run e2e tests
+        run: pnpm run test:e2e
 
   build:
     runs-on: ubuntu-latest
